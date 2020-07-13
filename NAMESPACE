@@ -1,0 +1,5 @@
+useDynLib(tseriespatterns,.registration = TRUE)
+export(AmplitudeBasedLabeler)
+
+importFrom(Rcpp, sourceCpp)
+importFrom(testthat, test_check)

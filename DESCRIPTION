@@ -1,0 +1,15 @@
+
+Package: tseriespatterns
+Type: Package
+Title: Financial Timeseries Pattern Library
+Version: 0.0.1
+Date: 2020-07-11
+Author: Jonathan Shore <jonathan.shore@gmail.com>
+Maintainer: Jonathan Shore <jonathan.shore@gmail.com>
+Description: Financial timeseries pattern analysis functions
+License: MIT + file LICENCE 
+URL: https://github.com/tr8dr/r-tseries-patterns/tree/master
+Imports: Rcpp (>= 0.12.3), testthat
+LinkingTo: Rcpp
+ByteCompile: true
+Depends: Rcpp, quantmod, ggplot2, dplyr, R6
